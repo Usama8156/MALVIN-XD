@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~o2NnSTJJ#DGaDZ5G_IJ-wccwI3qG43habZtl9z6s3yOYyjwEWOKY",
+SESSION_ID: process.env.SESSION_ID || "malvin~A2ExjCYQ#NU_3FgWWXFg_mY8mRXkP4wvEvi6KWsew30Wg4H9Rbuw",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -82,7 +82,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
 
                  AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
-                ANTI_BAD: process.env.ANTI_BAD || "false",
+                ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
 
             ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
