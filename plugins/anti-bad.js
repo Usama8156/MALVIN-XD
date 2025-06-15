@@ -14,7 +14,7 @@ malvin({
   sender
 }) => {
   try {
-    const badWords = ["wtf", "mia", "xxx", "fuck", 'sex', "huththa", "pakaya", 'ponnaya', "hutto"];
+    const badWords = ["whatsapp", "mia", "xxx", "fuck", 'sex', "huththa", "pakaya", 'ponnaya', "hutto"];
 
     if (!isGroup || isAdmins || !isBotAdmins) {
       return;
