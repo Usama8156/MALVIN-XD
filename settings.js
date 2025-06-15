@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~JrVh0TQQ#jgaX0vFzes8atBMGmSkC3hm4DgBVayT8_9EZdYv7YuU",
+SESSION_ID: process.env.SESSION_ID || "malvin~o2NnSTJJ#DGaDZ5G_IJ-wccwI3qG43habZtl9z6s3yOYyjwEWOKY",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -19,7 +19,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 
     LINK_WARN_LIMIT: 3, // Number of warnings before action
 
-    LINK_ACTION: "none", // "kick", "mute", or "none"
+    LINK_ACTION: "mute", // "kick", "mute", or "none"
 
         AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -37,7 +37,7 @@ LINK_WHITELIST: "youtube.com,github.com",
        WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups 
    
-       ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
+       ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 // make true to know who dismiss or promoted a member in group
 
       ANTI_LINK: process.env.ANTI_LINK || "false",
@@ -65,7 +65,7 @@ LINK_WHITELIST: "youtube.com,github.com",
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
 
-          DELETE_LINKS: process.env.DELETE_LINKS || "true",
+          DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
           OWNER_NUMBER: process.env.OWNER_NUMBER || "26371475XXXX",
